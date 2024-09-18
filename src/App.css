@@ -1,0 +1,57 @@
+.main{
+    width: 40vw;
+    border: 2px solid black;
+    height: 80vh;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.display{
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    height: 20%;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+    font-size: 3rem;
+    justify-content: space-between;
+}
+
+.keys{
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    height: 60%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.keybtn{
+    width: 18%;
+    height: 20%;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.dis{
+    font-weight: lighter;
+    font-size: 2rem;
+    width: 100%;            
+    word-wrap: break-word;   
+    word-break: break-all;   
+    overflow-wrap: break-word; 
+    overflow: hidden; 
+}
+.res{
+    font-weight: 500;
+    width: 100%;           
+    word-wrap: break-word;   
+    word-break: break-all;   
+    overflow-wrap: break-word; 
+    overflow: hidden; 
+    color: green;
+    text-align: right;
+}
