@@ -29,10 +29,10 @@ function App() {
     <>
     <div className='main'>
     <Display displayToBeShown={disp} resultToBeShown={res}/>
-    
+    <hr/>
     <Keys clickedbtn={handleKeyClick}/>
 
-
+    <div><center>CASIO</center></div>
     </div>
     </>
   );
